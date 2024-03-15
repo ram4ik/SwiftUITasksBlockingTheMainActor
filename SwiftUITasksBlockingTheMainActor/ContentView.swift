@@ -7,15 +7,24 @@
 
 import SwiftUI
 
+@MainActor
 struct ContentView: View {
+    @State private var appModel = AppModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Count", action: appModel.count)
+                .buttonStyle(.borderedProminent)
+            
+            Text(appModel.counter.formatted())
+                .fontDesign(.monospaced)
+                .font(.largeTitle)
+            
+            Text("Running: \(appModel.running ? "Yes" : "No")")
         }
-        .padding()
+        .task {
+            await appModel.start()
+        }
     }
 }
 

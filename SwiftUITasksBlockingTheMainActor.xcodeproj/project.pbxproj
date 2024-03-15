@@ -11,6 +11,7 @@
 		1D63D4942BA4496500214348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63D4932BA4496500214348 /* ContentView.swift */; };
 		1D63D4962BA4496800214348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D63D4952BA4496800214348 /* Assets.xcassets */; };
 		1D63D4992BA4496800214348 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D63D4982BA4496800214348 /* Preview Assets.xcassets */; };
+		1D63D4A02BA449A000214348 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D63D49F2BA449A000214348 /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1D63D4932BA4496500214348 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D63D4952BA4496800214348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D63D4982BA4496800214348 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D63D49F2BA449A000214348 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1D63D4912BA4496500214348 /* SwiftUITasksBlockingTheMainActorApp.swift */,
 				1D63D4932BA4496500214348 /* ContentView.swift */,
+				1D63D49F2BA449A000214348 /* AppModel.swift */,
 				1D63D4952BA4496800214348 /* Assets.xcassets */,
 				1D63D4972BA4496800214348 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D63D4942BA4496500214348 /* ContentView.swift in Sources */,
+				1D63D4A02BA449A000214348 /* AppModel.swift in Sources */,
 				1D63D4922BA4496500214348 /* SwiftUITasksBlockingTheMainActorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
